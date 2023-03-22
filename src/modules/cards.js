@@ -77,15 +77,11 @@ const createCards = async () => {
 
     comment.addEventListener('click', async () => {
       const modal = document.querySelector('.comment-model');
-      modal.classList.add('active');
-      // modal.innerHTML = '';
-      // modal.style.display= 'block';
+      modal.innerHTML = '';
       modal.style.display = 'block';
-      // console.log(item.title);
+
+      modal.classList.add('active');
       await showCommentCard(item.title);
-      // const appblur = document.querySelector('.app-container');
-      // appblur.style.position = 'absolute';
-      // appblur.style.backdropFilter = 'blur(15px)';
     });
 
     titleContainer.appendChild(cardTitle);
@@ -103,7 +99,6 @@ const createCards = async () => {
   } else {
     counter.textContent = countCards();
   }
-  // console.log(counter)
 };
 
 export { createCards as default };

@@ -59,8 +59,6 @@ a {
   margin-left: auto;
   margin-right: auto;
   background-color: #20262e;
-
-  /* position: absolute; */
 }
 
 .content section {
@@ -90,7 +88,7 @@ a {
   display: flex;
   flex-direction: column;
   width: 23rem;
-  height: 26rem;
+  height: 28rem;
   background-color: #8a929c;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -98,8 +96,6 @@ a {
   padding: 0.4rem;
   border-radius: 0.5rem;
   transition: ease-in-out 0.5s;
-
-  /* backdrop-filter: blur(10px); */
 }
 
 .card:hover {
@@ -113,32 +109,48 @@ a {
   margin-right: 2rem;
 }
 
+.mediaImage {
+  width: 69rem;
+  height: 45rem;
+}
+
 .comment-model {
-  /* display: flex; */
   flex-direction: column;
   width: 90vw;
-  height: 80rem;
-  margin-left: 4rem;
-  position: absolute;
+  height: 90vh;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
   z-index: 20;
-  top: 25%;
-  bottom: 20%;
+  top: 2%;
+  left: 4%;
+  overflow-y: auto;
+  bottom: 2%;
+  background-color: #8a929c;
   display: none;
 }
 
 .comment-card {
   display: flex;
   flex-direction: column;
-  padding: 2rem 6rem;
-  width: 100%;
+  padding: 1rem 2rem;
+  width: 95%;
+  height: 49rem;
   background-color: rgb(226, 236, 233);
   margin-left: 2rem;
   border-radius: 0.4rem;
+  margin-bottom: 3rem;
+}
+
+.cross {
+  font-size: 2rem;
+  cursor: pointer;
 }
 
 form {
   display: flex;
   flex-direction: column;
+  margin-bottom: 2rem;
 }
 
 .input {
@@ -149,6 +161,19 @@ form {
 form button {
   width: 10rem;
   height: 3rem;
+}
+
+.comment-btn {
+  cursor: pointer;
+  font-weight: 600;
+  width: 7rem;
+  height: 2rem;
+}
+
+.fa-heart:hover {
+  color: red;
+  transition: 0.5s;
+  transform: scaleX(1.2);
 }
 
 footer {
