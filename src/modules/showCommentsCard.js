@@ -18,12 +18,11 @@ const showCommentCard = async (title) => {
       const closeIcon = document.createElement('div');
       closeIcon.classList.add('close-icon');
       const icon = document.createElement('i');
-      icon.classList.add('fas', 'fa-times');
+      icon.classList.add('fas', 'fa-times', 'cross');
       closeIcon.appendChild(icon);
 
       const closeClick = () => {
         commentModel.classList.remove('active');
-        // commentModel.innerHTML = '';
         commentModel.style.display = 'none';
         commentModel.innerHTML = '';
       };
@@ -85,7 +84,6 @@ const showCommentCard = async (title) => {
       mainDescription.append(h1, explanation, extraExplanation, h2, commentContainer, commentTitle, form); // eslint-disable-line max-len
       commentCard.append(closeIcon, mainDescription);
       commentModel.appendChild(commentCard);
-      //    commentModel.style.display = 'block';
       form.addEventListener('submit', async (event) => {
         event.preventDefault();
         commentContainer.innerHTML = '';
