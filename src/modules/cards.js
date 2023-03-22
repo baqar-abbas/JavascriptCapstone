@@ -1,7 +1,10 @@
 import getPictures from './GetRequest.js';
+import { postLike, getLikes } from './involvementApp.js';
+import showCommentCard from './showCommentsCard.js'; // eslint-disable-line import/no-cycle
 import countCards from './counts.js';
 
 const itemGrid = document.querySelector('.item-grid');
+
 const createCards = async () => {
   const myPictures = await getPictures();
 
@@ -14,6 +17,11 @@ const createCards = async () => {
       media.classList.add('picture');
       media.src = item.url;
       card.appendChild(media);
+      media.addEventListener('click', async () => {
+        await showCommentCard(item.title);
+        const modal = document.querySelector('.comment-model');
+        modal.classList.add('active');
+      });
     } else {
       const media = document.createElement('iframe');
       media.classList.add('video');
@@ -42,11 +50,43 @@ const createCards = async () => {
     const likes = document.createElement('p');
     likes.textContent = '0 likes';
 
+    const likeNumber = async () => {
+      const itemLikes = await getLikes();
+      itemLikes.forEach((like) => {
+        if (like.item_id === `picture-${i}`) {
+          likes.textContent = '';
+          likes.classList.add('like-number');
+          likes.textContent = `${like.likes} likes`;
+        }
+      });
+    };
+
+    love.addEventListener('click', async () => {
+      await postLike(`picture-${i}`);
+      likeNumber();
+    });
+
+    likeNumber();
+    likesContainer.appendChild(likes);
+
     const comment = document.createElement('button');
     comment.classList.add('comment-btn');
     comment.type = 'button';
     comment.setAttribute('title', `${item.title}`);
     comment.innerText = 'Comments';
+
+    comment.addEventListener('click', async () => {
+      const modal = document.querySelector('.comment-model');
+      modal.classList.add('active');
+      // modal.innerHTML = '';
+      // modal.style.display= 'block';
+      modal.style.display = 'block';
+      // console.log(item.title);
+      await showCommentCard(item.title);
+      // const appblur = document.querySelector('.app-container');
+      // appblur.style.position = 'absolute';
+      // appblur.style.backdropFilter = 'blur(15px)';
+    });
 
     titleContainer.appendChild(cardTitle);
     titleContainer.appendChild(contentContainer);
@@ -63,6 +103,7 @@ const createCards = async () => {
   } else {
     counter.textContent = countCards();
   }
+  // console.log(counter)
 };
 
-export default createCards;
+export { createCards as default };

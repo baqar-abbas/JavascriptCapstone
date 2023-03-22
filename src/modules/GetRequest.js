@@ -10,4 +10,4 @@ const getPictures = async () => {
   return answer;
 };
 
-export default getPictures;
+export { getPictures as default };
