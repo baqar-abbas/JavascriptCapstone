@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/codeWithHyder/javascriptcapstone"
+    "url": "https://github.com/baqar-abbas/javascriptcapstone"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/codeWithHyder/javascriptcapstone/issues"
+    "url": "https://github.com/baqar-abbas/javascriptcapstone/issues"
   },
-  "homepage": "https://codewithhyder.github.io/javascriptcapstone/dist/",
+  "homepage": "https://baqar-abbas.github.io/javascriptcapstone/dist/",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.21.2",
     "babel-eslint": "^10.1.0",
