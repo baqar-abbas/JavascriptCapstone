@@ -4,4 +4,4 @@ const countCards = () => {
   return count;
 };
 
-export default countCards;
+export { countCards as default };

@@ -3,4 +3,4 @@ const countComments = () => {
   return allComments;
 };
 
-export default countComments;
+export { countComments as default };
