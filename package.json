@@ -1,5 +1,5 @@
 {
-  "name": "to-do-list-final",
+  "name": "javascriptcapstone",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/codeWithHyder/to-do-list-final"
+    "url": "https://github.com/codeWithHyder/javascriptcapstone"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/codeWithHyder/to-do-list-final/issues"
+    "url": "https://github.com/codeWithHyder/javascriptcapstone/issues"
   },
-  "homepage": "https://codewithhyder.github.io/to-do-list-final/dist/",
+  "homepage": "https://codewithhyder.github.io/javascriptcapstone/dist/",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.21.2",
     "babel-eslint": "^10.1.0",
