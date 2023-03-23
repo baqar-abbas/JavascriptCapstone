@@ -177,7 +177,8 @@ form button {
 }
 
 footer {
-  text-align: center;
+  text-align: left;
+  margin-left: 1rem;
   font-size: 14px;
   height: 4rem;
   padding: 1rem;

@@ -50,7 +50,7 @@ HTML CSS JavaScript Webpack and API
 
 - [Live Demo](https://baqar-abbas.github.io/JavascriptCapstone/dist/)
 
-- [Project Video Demo](https://drive.google.com/file/d/1YkJdN_2JPWnWaJmcdkMGk5Ietv_kkc4i/view?usp=sharing)
+- [Project Video Demo](https://drive.google.com/file/d/1kDYmcjAirb-yj66bkMc0kkCsyNSACBa2/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,7 +98,7 @@ The Project has been deployed in the link below.
 
 - GitHub: [@codeWithHyder](https://github.com/codeWithHyder)
 - Twitter: [@Hyder](https://twitter.com/@hyder3512)
-- LinkedIn: [Hyder](https://www.linkedin.com/in/ghulam-hyder-dar)
+- LinkedIn: [Hyder](https://www.linkedin.com/in/ghulam-hyder-dar-165653206/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
