@@ -19,4 +19,4 @@ const addComments = async (username, comment, itemID) => {
   return response.text();
 };
 
-export { getComments, addComments };
+export { getComments, addComments as default };

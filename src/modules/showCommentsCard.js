@@ -1,6 +1,6 @@
 import getPictures from './GetRequest.js';
 import displayComments from './comments.js';
-import { addComments } from './APIcomments.js';
+import addComments from './APIcomments.js';
 import countComments from './countComments.js';
 
 const showCommentCard = async (title) => {
