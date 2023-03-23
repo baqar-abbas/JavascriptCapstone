@@ -32,11 +32,11 @@
 
 # 📖 JavascriptCapstone <a name="about-project"></a>
 
-**JavascriptCapstone** is a simple project which can add and remove scores on the website using Leaderboard API.
+**JavascriptCapstone** is a Project which is fetching images through base API (NASA API) and displaying them on the homepage. User can interact by clicking likes and comments. User likes and comments are fetch and posted through involvement api which increases the likes everytime user clicks on a like button. When a user clicks on a comment button a modal popup appears where user can add his/her comments which will be added and displayed in the comments area.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-HTML CSS JavaScript Webpack and api
+HTML CSS JavaScript Webpack and API 
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -48,7 +48,9 @@ HTML CSS JavaScript Webpack and api
 
 ## 🚀 Live Demo <a name="live-demo"> </a>
 
-> Live Demo will be available after Approval
+- [Live Demo](https://baqar-abbas.github.io/JavascriptCapstone/dist/)
+
+- [Project Video Demo](https://drive.google.com/file/d/1kDYmcjAirb-yj66bkMc0kkCsyNSACBa2/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -71,16 +73,16 @@ Example commands:
 ```
 
 ### Install
-VS CODE, Dev Dependencies (Linters), npm Package Manager
+VS CODE, Dev Dependencies (Linters), npm Package Manager, Webpack and Jest (for unit testing)
 
 ### Usage
 Able to see the Data fetched through API and able to update likes and comments section through Post on API. 
 
 ### Run tests
-Add  and update likes and comments whether it is being displayed properly on the UI.
+Add  and update likes and comments and see whether likes are increasing and comments are added and displayed.
 
 ### Deployment
-This Project will be deployed after final approval.
+The Project has been deployed in the link below.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,13 +98,13 @@ This Project will be deployed after final approval.
 
 - GitHub: [@codeWithHyder](https://github.com/codeWithHyder)
 - Twitter: [@Hyder](https://twitter.com/@hyder3512)
-- LinkedIn: [Hyder](https://www.linkedin.com/in/ghulam-hyder-dar)
+- LinkedIn: [Hyder](https://www.linkedin.com/in/ghulam-hyder-dar-165653206/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Functionality of fetching Data from APIs and Posting likes and comments on API will be implemented**
+- [ ] **[Functionality of fetching Data from APIs and Posting likes and comments on API has been implemented. In future we can add more features like contact sesction**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,7 +122,7 @@ If you like this project please consider leaving a review.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my coding partner [@CodeWithHyder] for their contributions for this project with me.
+I would like to thank my coding partner [@CodeWithHyder] for his contributions to this project with me. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
